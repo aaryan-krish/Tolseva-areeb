@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <g id="logo-graphic" filter="url(#soft-shadow)">
+    <!-- Central T-Bar and Pillar (Saffron/Orange) -->
+    <rect x="170" y="45" width="160" height="16" rx="8" fill="#F58220" />
+    <rect x="242" y="45" width="16" height="95" rx="4" fill="#F58220" />
+
+    <!-- Left Pan Strings & Basin -->
+    <polygon points="190,61 155,140 225,140" fill="none" stroke="#F58220" stroke-width="4.5" stroke-linejoin="round" />
+    <path d="M 152 140 Q 190 180 228 140 Z" fill="#F58220" />
+
+    <!-- Right Pan Strings & Basin -->
+    <polygon points="310,61 275,140 345,140" fill="none" stroke="#F58220" stroke-width="4.5" stroke-linejoin="round" />
+    <path d="M 272 140 Q 310 180 348 140 Z" fill="#F58220" />
+
+    <!-- Ashoka Chakra (Navy Blue) -->
+    <g transform="translate(250, 195)">
+      <!-- Outer Circle -->
+      <circle cx="0" cy="0" r="42" fill="#FFFFFF" stroke="#0F2C59" stroke-width="5" />
+      <circle cx="0" cy="0" r="38" fill="none" stroke="#0F2C59" stroke-width="1.5" />
+      <!-- Center Hub -->
+      <circle cx="0" cy="0" r="7" fill="#0F2C59" />
+      <!-- 24 Spokes -->
+      <g stroke="#0F2C59" stroke-width="2.2" stroke-linecap="round">
+        <line x1="0" y1="0" x2="0" y2="-38" />
+        <line x1="0" y1="0" x2="0" y2="38" />
+        <line x1="0" y1="0" x2="-38" y2="0" />
+        <line x1="0" y1="0" x2="38" y2="0" />
+        <line x1="0" y1="0" x2="0" y2="-38" transform="rotate(15)" />
+        <line x1="0" y1="0" x2="0" y2="38" transform="rotate(15)" />
+        <line x1="0" y1="0" x2="-38" y2="0" transform="rotate(15)" />
+        <line x1="0" y1="0" x2="38" y2="0" transform="rotate(15)" />
+        <line x1="0" y1="0" x2="0" y2="-38" transform="rotate(30)" />
+        <line x1="0" y1="0" x2="0" y2="38" transform="rotate(30)" />
+        <line x1="0" y1="0" x2="-38" y2="0" transform="rotate(30)" />
+        <line x1="0" y1="0" x2="38" y2="0" transform="rotate(30)" />
+        <line x1="0" y1="0" x2="0" y2="-38" transform="rotate(45)" />
+        <line x1="0" y1="0" x2="0" y2="38" transform="rotate(45)" />
+        <line x1="0" y1="0" x2="-38" y2="0" transform="rotate(45)" />
+        <line x1="0" y1="0" x2="38" y2="0" transform="rotate(45)" />
+        <line x1="0" y1="0" x2="0" y2="-38" transform="rotate(60)" />
+        <line x1="0" y1="0" x2="0" y2="38" transform="rotate(60)" />
+        <line x1="0" y1="0" x2="-38" y2="0" transform="rotate(60)" />
+        <line x1="0" y1="0" x2="38" y2="0" transform="rotate(60)" />
+        <line x1="0" y1="0" x2="0" y2="-38" transform="rotate(75)" />
+        <line x1="0" y1="0" x2="0" y2="38" transform="rotate(75)" />
+        <line x1="0" y1="0" x2="-38" y2="0" transform="rotate(75)" />
+        <line x1="0" y1="0" x2="38" y2="0" transform="rotate(75)" />
+      </g>
+    </g>
+
+    <!-- Bold Green Checkmark Over Right Pan -->
+    <path 
+      d="M 285 145 L 320 185 L 380 95" 
+      fill="none" 
+      stroke="#16A34A" 
+      stroke-width="20" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+  </g>
+
+  <!-- Typography -->
+  <text 
+    x="250" 
+    y="290" 
+    text-anchor="middle" 
+    fill="#0F2C59" 
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+    font-size="44" 
+    font-weight="900" 
+    letter-spacing="4"
+  >
+    TOLSEVA
+  </text>
+  <text 
+    x="250" 
+    y="322" 
+    text-anchor="middle" 
+    fill="#0F2C59" 
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+    font-size="16" 
+    font-weight="700" 
+    letter-spacing="3"
+  >
+    SAHI TOL, DIGITAL VISHWAS
+  </text>
+</svg>

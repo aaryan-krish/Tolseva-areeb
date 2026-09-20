@@ -1,0 +1,6 @@
+{
+  "name": "TolSeva - Digital Legal Metrology Platform",
+  "description": "Smart India Hackathon 2026 digital legal metrology platform featuring Vendor Onboarding & Voice-Wizard, Inspector Digital Verification Tooling, and Higher Authority Progressive Flagging & State-Wide Heatmap Analytics.",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
